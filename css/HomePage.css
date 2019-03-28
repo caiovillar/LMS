@@ -1,33 +1,34 @@
 body{
-    background-image:url("fundo do site.jpg");
+    background-image: url(../imagem/fundo\ do\ site.jpg);
     font-size: 120%;
     padding: 0;
     margin: 0;
+    color: black;
 }
 
 
 .menu ul {
     padding:0px;
-    margin:0px;
-    background-color:black;
+    margin:auto;
+    background-color:orange;
     list-style:none;
-    display: block;
+    display: table;
     height: 100%; 
     text-align: center;
+    width: 100%;
 }
 
 .menu ul li { 
-    display: inline;
+    display: inline-block;
 }
 
 .menu ul li a {
-    padding: 25px 10px;
+    padding: 10px 20px;
     display: inline-block;
-
-    background-color:black;
-    color: rgb(201, 169, 28);
+    background-color:orange;
+    color: whitesmoke;
     text-decoration: none;
-    border-bottom:3px solid black;
+    border-bottom:3px solid orange;
 }
 
 .menu ul li a:hover {
@@ -37,22 +38,29 @@ body{
 }
 
 .rodape {
-    background: black;
+    background: orange;
     position: fixed;
     bottom: 0;
     width: 100%;
-    color:rgb(201, 169, 28);
+    color:white;
     text-align: center;
-    height: 50px;
+    height: 40px;
 }
 .left {
-text-align: left
+text-align: left;
+display: absolute;
 }
 
 .right {
-    text-align: right
+    text-align: right;
+    display: absolute;
+    margin-top: -23px;
 }
 
 h1 {
     text-align: center;
+}
+
+.itemMenu img{
+    float: left;
 }

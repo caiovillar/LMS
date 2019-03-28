@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Accademia Gastronomica</title>
+    <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/HomePage.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/HomePage.css">    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/Login.css">
     <script src="main.js"></script>
-
-
-
 </head>
+<body>
 
-
-<body >
- 
     <header class="menu">
         <ul class="itemMenu">
             <img src= "Imagem/Escola gastronomia BSB.jpg" width="5%" height="5%" >
@@ -25,17 +21,27 @@
             <li><a href="noticias.html">Notícias</a></li>
             <li><a href="Login.html">Login</a></li>
         </ul>
-    </header> 
+    </header>
 
-<h1>Accademia Gastronomica</h1>
-
-<footer class="rodape">
+    <footer class="rodape">
         <div class="left">Todos os direitos reservados a Accademia Gastronomica 2019 </div>       
      
         <div class="right"> Contato: <a href="mailto:contato@accademiagastronomica.com">
             contato@accademiagastronomica.com</a>.</div>
-    
-</footer>
+    </footer>
 
+<h1>LOGIN</h1>
+
+    <div class="login">
+        <form action="" method="POST" name="login">
+            <label>Nome de Usuário:</E-mail></label><br/>
+            <input type="text" maxlength="20" placeholder="Digite o nome do usuário" required/><br/>
+    
+            <label>Senha:</label><br/>
+            <input type="password" maxlength="16" placeholder="Digite sua senha" required/><br/>
+    
+            <input type="submit"/>
+        </form>
+    </div>
 </body>
 </html>

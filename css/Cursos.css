@@ -1,0 +1,62 @@
+.nav{
+    width: 960px;
+    height: 250px;
+    margin: 180px;
+    float: left;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+
+.nav ul li{
+    float: left;
+    font: 50px arial;
+}
+
+.nav ul li a{
+    color: orange;
+    text-decoration: none;
+    padding: 65px;
+    display: block;
+}
+
+.nav ul li .Gastronomia{
+    background: url(../imagem/Gastronomia.png) no-repeat center;
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    margin-bottom: 15px;
+}
+
+.nav ul li .Nutricao{
+    background: url(../imagem/Nutrição.png) no-repeat center;
+    float: right;
+    width: 100%;
+    padding: 100px 0;
+    margin-bottom: 15px;
+}
+
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 20px;
+    cursor: pointer;
+    margin: 12rem;
+    float: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+}
+
+
+
